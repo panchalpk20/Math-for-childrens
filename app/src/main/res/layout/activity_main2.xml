@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:background="@drawable/welcom"
+    >
+
+   <!-- <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bb2"
+        android:adjustViewBounds="false"
+        android:scaleType="center"
+       />
+-->
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:orientation="vertical"
+        >
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What You Want to do today ?"
+            android:fontFamily="casual"
+            android:padding="5dp"
+            android:textSize="40sp"
+            android:textColor="#fff"
+            android:layout_marginLeft="-10dp"
+            android:layout_marginRight="-10dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="50sp" />
+
+
+        <Button
+            android:background="@drawable/sign_buttons"
+            android:id="@+id/plus"
+            android:layout_width="250dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:text="Addition" />
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="20sp" />
+
+
+        <Button
+            android:background="@drawable/sign_buttons"
+            android:id="@+id/minus"
+            android:layout_width="250dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="20sp"            android:text="Subtraction" />
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="20sp" />
+
+
+        <Button
+            android:background="@drawable/sign_buttons"
+            android:id="@+id/mult"
+            android:layout_width="250dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:text="Multiplication" />
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="20sp" />
+
+
+        <Button
+            android:background="@drawable/sign_buttons"
+            android:id="@+id/div"
+            android:layout_width="250dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:text="Division" />
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="40sp" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="240dp"
+    android:layout_height="340dp"
+    android:orientation="vertical"
+    android:background="@drawable/welcom"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:padding="2dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:fontFamily="casual"
+        android:textAllCaps="true"
+        android:text="Want to exit?"
+        android:textSize="35sp" />
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/yes"
+            android:layout_width="100dp"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_1"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="Yes"
+            android:textSize="25sp"
+            />
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            />
+        <Button
+            android:id="@+id/no"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:textColor="#fff"
+            android:background="@drawable/button_1"
+            android:layout_gravity="center"
+            android:layout_height="match_parent"
+            android:text="No"
+            android:textSize="25sp"
+            />
+        
+        
+    </LinearLayout>
+
+   
+</LinearLayout>
